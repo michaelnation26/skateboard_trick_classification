@@ -101,3 +101,10 @@ Same preprocessing as described in [1. RGB Model](#1.-RGB-Model) and [2. Audio M
 First, all layers in the audio model were frozen and all layers in the RGB-I3D model were unfrozen. The model was trained using Adam with a learning rate of 0.0001. Training was halted when the validation loss stopped decreasing.
 
 Then, all layers in both models were unfrozen. The model finished training, but with a smaller learning rate of 0.00001. This approach increased the validation accuracy by about 2%.
+
+# Results
+
+The model metrics (accuracy, precision, recall, etc) on the test set can be found at the end of each Notebook.
+
+* [RGB Model Notebook](https://github.com/michaelnation26/skateboard_trick_classification/blob/master/rgb_model.ipynb)
+* [RGB+Audio Model Notebook](https://github.com/michaelnation26/skateboard_trick_classification/blob/master/rgb%2Baudio_model.ipynb)
