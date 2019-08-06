@@ -34,7 +34,7 @@ The RGB-I3D model used in this project is from a Keras implementation created by
 
 <br/>
 
-The three gifs above are examples of a kickflip, tailslide, and fail.
+*The three gifs above are examples of a kickflip, tailslide, and fail.*
 
 ### Dataset
 
