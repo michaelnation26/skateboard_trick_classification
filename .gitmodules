@@ -1,0 +1,3 @@
+[submodule "keras-kinetics-i3d"]
+	path = keras-kinetics-i3d
+	url = https://github.com/dlpbc/keras-kinetics-i3d.git
