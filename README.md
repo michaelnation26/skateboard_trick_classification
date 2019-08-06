@@ -28,7 +28,7 @@ The RGB-I3D model used in this project is from a Keras implementation created by
 
 <br/>
 
-![kickflip](readme_content/50-50.gif) &nbsp;&nbsp;&nbsp;&nbsp;
+![kickflip](readme_content/kickflip.gif) &nbsp;&nbsp;&nbsp;&nbsp;
 ![tailslide](readme_content/tailslide.gif) &nbsp;&nbsp;&nbsp;&nbsp;
 ![fail](readme_content/fail.gif)
 
