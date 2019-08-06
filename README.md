@@ -2,12 +2,13 @@ A two-stream model (RGB+audio) was trained to classify skateboard tricks from vi
 
 **The primary purpose of this project is to demonstrate how a two-stream model (RGB+audio) can produce a higher accuracy score than a single-stream model (RGB) on a given task.**
 
-### Results
+### Test Set Results
 
 | Model | Top-1 Acc |
 | --- | --- |
 | RGB | 50.9 |
 | RGB+audio | 62.3 |
+
 
 # Implementation
 
@@ -25,8 +26,15 @@ The RGB-I3D model used in this project is from a Keras implementation created by
 * tailslide
 * fail
 
-The three gifs below are examples of a kickflip, tailslide, and fail.
-![kickflip](readme_content/50-50.gif) &nbsp;&nbsp;&nbsp;&nbsp; ![tailslide](readme_content/tailslide.gif) &nbsp;&nbsp;&nbsp;&nbsp; ![fail](readme_content/fail.gif)
+<br/>
+
+![kickflip](readme_content/50-50.gif) &nbsp;&nbsp;&nbsp;&nbsp;
+![tailslide](readme_content/tailslide.gif) &nbsp;&nbsp;&nbsp;&nbsp;
+![fail](readme_content/fail.gif)
+
+<br/>
+
+The three gifs above are examples of a kickflip, tailslide, and fail.
 
 ### Dataset
 
@@ -58,7 +66,7 @@ The classes for the audio model are skateboard trick **types** and not skateboar
 <br/>
 
 ![grind](readme_content/spectrogram.jpg) <br/>
-*spectrogram of a grind*
+*Spectrogram of a grind.*
 
 ### Dataset
 
