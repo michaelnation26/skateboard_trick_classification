@@ -2,13 +2,16 @@ A two-stream model (RGB+audio) was trained to classify skateboard tricks from vi
 
 **The primary purpose of this project is to demonstrate how a two-stream model (RGB+audio) can produce a higher accuracy score than a single-stream model (RGB) on a given task.**
 
-### Test Set Results
+#### Test Set Results
 
 | Model | Top-1 Acc |
 | --- | --- |
 | RGB | 50.9 |
-| RGB+audio | 62.3 |
+| RGB+Audio | 62.3 |
 
+#### RGB+Audio Model Architecture
+
+![model architecture](readme_content/model_architecture.png)
 
 # Implementation
 
