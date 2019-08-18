@@ -116,4 +116,4 @@ The model metrics (accuracy, precision, recall, etc) on the test set can be foun
 
 All the code needed to train the models are included in this repository. However, the video clips in the training, validation, and test sets are not publicly available. You will have to curate your own datasets. The folder structure for the datasets is as follows:
 
-![data folder structure](readme_content/data_folder_structure.png){:height="450px" width="175px"}
+<img src="readme_content/data_folder_structure.png" width="175px" height="450px">
